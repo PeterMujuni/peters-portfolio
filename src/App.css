@@ -1,4 +1,6 @@
-img.logo {
-    margin: 0 auto;
-    margin-top: 50%;
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
