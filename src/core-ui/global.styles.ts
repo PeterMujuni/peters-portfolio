@@ -1,5 +1,5 @@
 import React from "react"
-import { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle, keyframes } from "styled-components"
 import { variables } from "./variables.styles"
 
 
@@ -88,4 +88,18 @@ export const GlobalStyle = createGlobalStyle`
   .nav-open .hamburger::after {
       opacity: 0;
   }
+`
+
+const rotate = keyframes`
+  from {
+    tranform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+`
+
+export const AnimatedLogo = styled.img`
+  height: 40vmin;
+  pointer-events: none;
+  animation: ${rotate} infinite 10s linear;
 `
