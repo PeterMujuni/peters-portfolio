@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyle } from './core-ui/global.styles';
+import { variables } from './core-ui/variables.styles';
+import { CvProvider } from './context/CvContext';
 import './App.css';
+import { Navbar } from './components/Navbar/Navbar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CvProvider>
+      <ThemeProvider theme={variables}>
+        <GlobalStyle />
+        <div className="App">
+          <Navbar />
+        </div>
+      </ThemeProvider>
+    </CvProvider>
   );
 }
 
