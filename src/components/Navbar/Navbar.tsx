@@ -1,4 +1,4 @@
-import React, { FC, useContext } from "react"
+import React from "react"
 import { useCV } from "../../context/CvContext";
 import { StyledHeader, 
         StyledLogo, 
@@ -8,12 +8,8 @@ import { StyledHeader,
         StyledUl,
         StyledAnchor } from "./Navbar.styles";
 
-type ClickProps = {
-    handleClick: () => void
-}
-
-export const Navbar: FC = () => {
-    const { data } = useCV();
+export const Navbar = () => {
+    const data = useCV();
 
     const handleClick = () => {
         document.body.classList.toggle('nav-open');

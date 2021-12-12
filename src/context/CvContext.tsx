@@ -1,20 +1,17 @@
-import { createContext, FC, useState, useContext } from "react"
+import React, { createContext, useContext } from "react"
 import { peterMujuni } from '../cv-data/PeterMujuni'
 
 type CvContextType = {
-    data: typeof peterMujuni
+    children: React.ReactNode
 }
 
-export const CVContext = createContext<CvContextType>({} as CvContextType);
+export const CVContext = createContext(peterMujuni);
 
 
-export const CvProvider: FC = ({ children }) => {
-    console.log('from context: '+peterMujuni.resume)
-    const [data, setData] = useState(peterMujuni)
-
-
+export const CvProvider = ({ children }: CvContextType) => {
+    
     return (
-        <CVContext.Provider value={{ data }}>
+        <CVContext.Provider value={ peterMujuni }>
             {children}
         </CVContext.Provider>
     )

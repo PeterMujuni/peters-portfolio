@@ -1,4 +1,3 @@
-import React from "react"
 import styled, { createGlobalStyle, keyframes } from "styled-components"
 import { variables } from "./variables.styles"
 

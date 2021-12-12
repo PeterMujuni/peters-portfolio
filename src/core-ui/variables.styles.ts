@@ -1,5 +1,3 @@
-import styled from 'styled-components'
-
 // custom properties
 export const variables = {
     fontFamily: {
