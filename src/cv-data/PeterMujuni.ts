@@ -1,12 +1,23 @@
-import profileimage from '../assets/images/profilePhoto.jpg';
+import profileimage from '../assets/images/petermujuni.png';
 import logoImage from '../assets/images/portfolioLogo.png';
 import linkedinImage from '../assets/images/linkedin.png';
 import githubImage from '../assets/images/github.png';
 import comingSoonImage from '../assets/images/coming-soon.png'
+import aboutMeImage from '../assets/images/petermujuni1.png'
+// import {SiHtml5,
+//         SiCss3,
+//         SiJavascript,
+//         SiReact,
+//         SiTypescript,
+//         SiNextdotjs,
+//         SiRedux,
+//         SiMongodb,
+//         SiFirebase,
+//         SiNodedotjs} from 'react-icons/si';
 
 export const peterMujuni = {
     personligInfo: {
-        name: 'PETER MUJUNI MWEBESA',
+        name: 'PETER MUJUNI',
         position: 'Frontend Developer',
         email: 'kontakt@petermujuni.dk',
         location: 'Denmark, Copenhagen',
@@ -17,12 +28,15 @@ export const peterMujuni = {
         githubLink: 'https://github.com/PeterMujuni',
         linkedinLink: 'https://www.linkedin.com/in/petermujuni/'
     },
-    resume: [
-        "Frontend Engineer, Peter Mujuni contributes to the improvement of web applications through accessibility, newest trends, best practices and strong focus on high quality code. He has reached his results through planning, documenting, implementing and executing frontend projects.",
-        "The developer has hands-on experience as Frontend Engineer, with a strong focus on adding value by building bridges between the frontend  and users.",
-        "He has experience in building frontend applications with fundamental web technologies from scratch such as  JavaScript ES6, CSS3 and HTML5, and also utilizing JS Libraries such as ReactJS.",
-        "He is a web addict and has been working professionally within the WEB-industry since 2015."
-    ],
+    about: {
+        image: aboutMeImage,
+        resume: [
+            "Frontend Engineer, Peter Mujuni contributes to the improvement of web applications through accessibility, newest trends, best practices and strong focus on high quality code. He has reached his results through planning, documenting, implementing and executing frontend projects.",
+            "The developer has hands-on experience as Frontend Engineer, with a strong focus on adding value by building bridges between the frontend  and users.",
+            "He has experience in building frontend applications with fundamental web technologies from scratch such as  JavaScript ES6, CSS3 and HTML5, and also utilizing JS Libraries such as ReactJS.",
+            "He is a web addict and has been working professionally within the WEB-industry since 2015."
+        ]
+    },
     experience: [
         {
             company: 'Meedo',
@@ -159,13 +173,13 @@ export const peterMujuni = {
         {
             name: 'Sass',
             icon: 'SiSass',
-            progressValue: '90',
+            progressValue: '99',
             color: '#C76395'
         },
         {
             name: 'ReactJS',
             icon: 'SiReact',
-            progressValue: '99',
+            progressValue: '75',
             color: '#5ED3F3'
         },
         {
@@ -183,7 +197,7 @@ export const peterMujuni = {
         {
             name: 'Redux',
             icon: 'SiRedux',
-            progressValue: '60',
+            progressValue: '25',
             color: '#7248B6'
         }
     ],

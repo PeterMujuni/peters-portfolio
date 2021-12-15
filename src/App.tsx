@@ -7,6 +7,8 @@ import './App.css';
 import { Navbar } from './components/Navbar/Navbar';
 import logo from './logo.svg'
 
+import { Home } from './pages/Home/Home';
+
 function App() {
   return (
     <CvProvider>
@@ -14,7 +16,8 @@ function App() {
         <GlobalStyle />
         <div className="App">
           <Navbar />
-          <AnimatedLogo src={logo} className='logo'/>
+          <Home />
+          {/* <AnimatedLogo src={logo} className='logo'/> */}
         </div>
       </ThemeProvider>
     </CvProvider>

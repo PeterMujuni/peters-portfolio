@@ -26,5 +26,9 @@ export const variables = {
         fsH3: '1.5rem',
         fsH4: '1rem',
         fsBody: '1.125rem'
+    },
+    boxShadow: {
+        bsOne: '0.10em 0.10em 0.55em rgba(0,0,0,.25)',
+        bsTwo: '0.125em 00.125em 0.25em rgba(0,0,0,.15)'
     }
   }

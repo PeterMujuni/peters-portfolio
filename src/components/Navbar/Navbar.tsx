@@ -1,4 +1,3 @@
-import React from "react"
 import { useCV } from "../../context/CvContext";
 import { StyledHeader, 
         StyledLogo, 
