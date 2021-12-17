@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import { variables } from "../../../core-ui/variables.styles"
+import { variables } from "../../../core-ui/variables.styles";
 
+//about-me
 export const StyledAbout = styled.section`
     max-width: 1000px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 
     @media (min-width: 600px) {
         display: grid;
@@ -24,6 +25,12 @@ export const StyledSectionTitle = styled.h2`
 `
 
 export const StyledSubTitle = styled.p`
+    background: ${variables.color.accent};
+    padding: .25em 1em;
+    font-family: ${variables.fontFamily.code};
+    margin-bottom: 1em;
+    align-self: flex-start;
+    color: ${variables.color.light};
     @media (min-width: 600px){
         grid-column: 1 / -1;
         grid-row: 2;

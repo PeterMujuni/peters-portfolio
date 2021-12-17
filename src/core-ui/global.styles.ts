@@ -130,22 +130,16 @@ export const GlobalStyle = createGlobalStyle`
       font-size: ${variables.fontSize.fsH3};
   }
 
-  .section__subtitle--intro,
-  .section__subtitle--about {
-      background: ${variables.color.accent};
-      padding: .25em 1em;
-      font-family: ${variables.fontFamily.code};
-      margin-bottom: 1em;
-      align-self: flex-start;
-      color: ${variables.color.light};
-  }
-
   .section__subtitle--work {
       color: ${variables.color.accent};
       font-weight: ${variables.fontWeight.bold};
       margin-bottom: 2em;
   }
-
+  
+  .footer a {
+    color: inherit;
+    text-decoration: none;
+  }
 `
 
 const rotate = keyframes`

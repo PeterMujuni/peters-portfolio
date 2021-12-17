@@ -17,7 +17,7 @@ export const Navbar = () => {
     return (
         <StyledHeader className="header">
             <StyledLogo className="logo">
-                <img src={data.personligInfo.logo} alt="" />
+                <img src={data.Info.logo} alt="" />
             </StyledLogo>
             <StyledButton onClick={handleClick} className="nav-toggle" aria-label="toggle navigation">
                 <StyledSpan className="hamburger"></StyledSpan>

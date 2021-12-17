@@ -13,7 +13,7 @@ export const StyledHeader = styled.header`
     left: 0;
     right: 0;
     z-index: 100;
-    box-shadow: 0.5px 0.5px 7px grey;
+    /* box-shadow: 0.5px 0.5px 7px grey; */
 `
 
 export const StyledLogo = styled.div`

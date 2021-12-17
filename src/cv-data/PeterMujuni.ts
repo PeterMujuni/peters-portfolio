@@ -16,7 +16,7 @@ import aboutMeImage from '../assets/images/petermujuni1.png'
 //         SiNodedotjs} from 'react-icons/si';
 
 export const peterMujuni = {
-    personligInfo: {
+    Info: {
         name: 'PETER MUJUNI',
         position: 'Frontend Developer',
         email: 'kontakt@petermujuni.dk',

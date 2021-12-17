@@ -4,12 +4,12 @@ import { variables } from "../../../core-ui/variables.styles";
 export const StyledIntro = styled.section`
     position: relative;
     text-align: center;
-    margin-top: 4em;
+    /* margin-top: 4em; */
 
     @media (min-width: 600px) {
         display: grid;
         width: min-content;
-        margin: 0 auto;
+        margin: 4em auto 0;
         column-gap: 1em;
         grid-template-areas: 
             "img title"
@@ -26,6 +26,12 @@ export const StyledSectionTitle = styled.h1`
 `
 export const StyledSubTitle = styled.p`
     text-transform: uppercase;
+    background: ${variables.color.accent};
+    padding: .25em 1em;
+    font-family: ${variables.fontFamily.code};
+    margin-bottom: 1em;
+    align-self: flex-start;
+    color: ${variables.color.light};
 
     @media (min-width: 600px){
         grid-column: -1 / 1;

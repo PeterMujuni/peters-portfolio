@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { variables } from "../../../core-ui/variables.styles";
 import bgImage from '../../../assets/images/services-bg.png'
 
+// my-skills
 export const StyledMySkills = styled.section`
-    background: #4c4747;
+    background: #303030;
     background-image: url(${bgImage});
     background-size: cover;
     background-blend-mode: multiply;
@@ -11,6 +12,7 @@ export const StyledMySkills = styled.section`
     text-align: center;
 `
 
+// section__title--skills
 export const StyledSectionTitle = styled.h2`
     color: ${variables.color.accent};
     position: relative;
@@ -25,6 +27,7 @@ export const StyledSectionTitle = styled.h2`
     }
 `
 
+//skills
 export const StyledDivSkills = styled.div`
     margin-bottom: 4em;
     display: flex;
@@ -47,6 +50,7 @@ export const StyledDivSkills = styled.div`
     }
 `
 
+//skills-group
 export const StyledSkillsGroup = styled.article`
     width: 100%;
     margin: 0 auto 2em;
@@ -68,6 +72,7 @@ export const StyledSubTitles = styled.h3`
     margin-bottom: 1.5em;
 `
 
+// skill
 export const StyledSkill = styled.div`
     display: flex;
     align-items: center;
@@ -75,6 +80,7 @@ export const StyledSkill = styled.div`
     gap: 10px;
     justify-content: space-between;
 `
+
 
 export const StyledIconSection = styled.span`
     display: flex;
