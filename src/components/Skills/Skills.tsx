@@ -3,7 +3,7 @@ import {StyledMySkills,
         StyledDivSkills,
         StyledSkillsGroup,
         StyledSubTitles} from './Skills.styles'
-import { useCV } from '../../../context/CvContext'
+import { useCV } from '../../context/CvContext'
 import { Skill } from './Skill'
 
 export const Skills = () => {

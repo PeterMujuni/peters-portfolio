@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { variables } from "../../../core-ui/variables.styles";
+import { variables } from "../../core-ui/variables.styles";
 import bgImage from '../../../assets/images/services-bg.png'
 
 // my-skills

@@ -1,4 +1,4 @@
-import { useCV } from "../../../context/CvContext"
+import { useCV } from "../../context/CvContext"
 import { StyledWorkSection,
          StyledPortfolioDiv,
          StyledPortfolioItem,

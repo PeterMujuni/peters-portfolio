@@ -1,5 +1,5 @@
 import React from 'react';
-import { GetIcons } from '../../../components/IconComponent/IconComponent';
+import { GetIcons } from '../IconComponent/IconComponent';
 import { StyledSkill,
         StyledIconSection,
         StyledProgress } from './Skills.styles'

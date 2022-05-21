@@ -126,7 +126,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .section__subtitle {
-      margin: 0;
+      /* margin: 0; */
       font-size: ${variables.fontSize.fsH3};
   }
 

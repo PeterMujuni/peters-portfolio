@@ -1,0 +1,14 @@
+.header {
+    width: 300px;
+    overflow-y: visible;
+    background-color: orange;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.my-photo {
+    width: 300px;
+    display: block;
+}
