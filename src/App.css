@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 html,
 body{
     height: 100%;
     margin: 0;
     padding: 0;
     background-color: #23252C;
+    color: white;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
 }
 
 .App {
     width: 317px;
+    font-family: 'Inter', sans-serif;
 }

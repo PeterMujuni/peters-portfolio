@@ -1,0 +1,18 @@
+.title{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title--subtitle {
+    color: #F3BF99;
+    /* font-weight: 400; */
+    font-size: 12.6px;
+    text-align: center;
+}
+
+.title--website {
+    font-size: 10.24px;
+    text-align: center;
+}
