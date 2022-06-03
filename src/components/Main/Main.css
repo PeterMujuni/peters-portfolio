@@ -1,0 +1,50 @@
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.contact-buttons > .button {
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 14px;
+    padding: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.blue-bg {
+    background-color: #5093E2;
+    color: white;
+}
+
+.grey-bg {
+    background-color: #D1D5DB;
+    color: #374151;
+}
+
+#about-section,
+#interests-section {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    padding-top: 0.9rem;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 15.36px;
+}
+
+#interests-section {
+    margin-bottom: 2rem;
+}
+
+#social-icons {
+    background-color: #161619;
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
