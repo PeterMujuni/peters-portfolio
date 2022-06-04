@@ -3,7 +3,6 @@
 html,
 body{
     height: 100%;
-    margin: 0;
     padding: 0;
     background-color: #23252C;
     color: white;
@@ -15,7 +14,20 @@ body{
     justify-content: center;
 }
 
+@media (min-height: 768px) {
+    #root {
+        align-items: center;
+        height: 100%;
+    }
+}
+
 .App {
-    width: 317px;
+    width: 300px;
     font-family: 'Inter', sans-serif;
+    background-color: #1A1B21;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+a {
+    text-decoration: none;
 }

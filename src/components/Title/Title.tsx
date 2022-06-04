@@ -2,8 +2,9 @@ import React from 'react'
 import './Title.css'
 
 export default function Title() {
-    const title: string = 'Peter Mujuni Mwebesa';
-    const subTitle: string = "Full stack Developer";
+
+    const title: string = 'Peter Mujuni M.';
+    const subTitle: string = "Full MERN-stack Engineer";
     const websiteTitle: string = "www.petermujuni.dk";
 
   return (
