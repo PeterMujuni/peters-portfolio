@@ -45,10 +45,7 @@ export const Main = () => {
         </ul>
       </section>
       <section id="social-icons">
-        <a href=""><GrGithub /></a>
-        <a href=""><GrFacebook /></a>
-        <a href=""><GrInstagram /></a>
-        <a href=""><GrTwitter /></a>
+        <p className="cvr-nr">CVR-nr 37375721</p>
       </section>
     </main>
   )
